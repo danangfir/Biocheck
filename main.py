@@ -1,1 +1,2 @@
 print("ayam")
+print("pitik")
