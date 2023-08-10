@@ -8,11 +8,15 @@ print("||||||||||||||||||||||||")
 # percabangan
 milk_bottle_count = 1
 egg_count = 6
+print(f"jumlah telur {egg_count} telur")
+print(f"Jumlah botol {milk_bottle_count} botol ")
 
-if milk_bottle_count > 0 :
+if milk_bottle_count > 0:
     print("budi mengecek harganya, dan ternyata uangnya cukup")
-
-    print("budi membeli 1 botol susu")
+    if egg_count == 0:
+        print("budi membeli 1 botol susu")
+    else:
+        print("budi membeli 6 botol susu")
 else:
     print("budi tidak jadi membeli1 botol susu")
 
