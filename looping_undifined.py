@@ -20,5 +20,7 @@ if buku_sudah_dibaca_dan_dipahami == jumlah_buku :
 else:
     print(f"Bu, Tidak semua buku bisa dipahami, Budi hanya bisa memahami {buku_sudah_dibaca_dan_dipahami} buku")
 
+jumlah_buku = "banyak"
+print(jumlah_buku)
 
 
