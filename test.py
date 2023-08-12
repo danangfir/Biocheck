@@ -1,4 +1,5 @@
-ayam = 3
-pitik = 3
-while ayam < pitik :
-    print("ayam")
+angka = 1
+
+while angka <= 5:
+    print(angka)
+    angka += 1
