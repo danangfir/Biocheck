@@ -77,5 +77,46 @@ del  daftar_buku[0::2] # Start-End : Step
 for i in range(0, len(daftar_buku)):
     print(daftar_buku[i])
 
+print('\n Membuat List Baru')
+daftar_buku = ['-Seven Habits', '-Bertani Modern', '-Neo-Paleon', '-skibidi']
+daftar_buku_baru = daftar_buku[:]
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+print('\n Membuat List Baru-2')
+del daftar_buku [:]
+for i in range(0, len(daftar_buku_baru)):
+    print(daftar_buku_baru[i])
 
+print('\n Membuat List Baru')
+daftar_buku = ['-Seven Habits', '-Bertani Modern', '-Neo-Paleon', '-skibidi']
+daftar_buku_baru = daftar_buku[:]
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print('\n Membuat List Baru-2')
+del daftar_buku [:]
+for i in range(0, len(daftar_buku_baru)):
+    print(daftar_buku_baru[i])
+
+print('\n Membuat list Baru dengan Comprehension Ganjil')
+daftar_buku = ['1-Seven Habits', '2-Bertani Modern', '3-Neo-Paleon', '4-skibidi']
+daftar_buku_baru = daftar_buku[0::2]
+for i in range(0, len(daftar_buku_baru)):
+    print(daftar_buku_baru[i])
+
+print('\n Membuat list Baru dengan Comprehension Genap')
+daftar_buku = ['1-Seven Habits', '2-Bertani Modern', '3-Neo-Paleon', '4-skibidi']
+daftar_buku_baru = daftar_buku[1::2] #Start Stop End
+for i in range(0, len(daftar_buku_baru)):
+    print(daftar_buku_baru[i])
+
+print('\n Membuat list baru dengan comprehension hanya buang diujung ')
+daftar_buku = ['1-Seven Habits', '2-Bertani Modern', '3-Neo-Paleon', '4-skibidi']
+daftar_buku_baru = daftar_buku[0:-1:2]
+for i in range(0, len(daftar_buku_baru)):
+    print(daftar_buku_baru[i])
+
+print('\n Membuat list Baru dengan Comprehension Ganjil')
+daftar_buku = ['1-Seven Habits', '2-Bertani Modern', '3-Neo-Paleon', '4-skibidi']
+print(daftar_buku[0::2])
 
